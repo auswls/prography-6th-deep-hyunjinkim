@@ -131,7 +131,7 @@ def main():
    for epoch in range(1, args.epochs + 1) :
       train(args, model, device, train_loader, optimizer, epoch)
       test(args, model, device, test_loader, epoch)
-      torch.save(model.state_dict(), '/content/drive/My Drive/prography/model/mnist_convnet_model_epoch_%d.pth' % (epoch))
+      torch.save(model.state_dict(), '/content/drive/My Drive/prography/model/vgg16_model_epoch_%d.pth' % (epoch))
 
 
 
