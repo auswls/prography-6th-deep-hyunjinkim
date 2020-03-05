@@ -71,7 +71,7 @@ test_loader = torch.utils.data.DataLoader(dataset = test_dataset, batch_size=arg
 
 # model
 model = VGG16().to(device)
-model.load_state_dict(torch.load("/content/drive/My Drive/prography/model/mnist_convnet_model_epoch_2.pth")) # change the path
+model.load_state_dict(torch.load("/content/drive/My Drive/prography/model/vgg16_model_epoch_2.pth")) # change the path
 
 
 def test(args, model, device, test_loader):

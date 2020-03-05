@@ -91,7 +91,7 @@ def inference(model, sample_path) :
 
 
 model = VGG16().to(device)
-model.load_state_dict(torch.load("/content/drive/My Drive/prography/model/mnist_convnet_model_epoch_2.pth"))
+model.load_state_dict(torch.load("/content/drive/My Drive/prography/model/vgg16_model_epoch_2.pth"))
 
 
 sample_image_path = "/content/drive/My Drive/prography/sample/*jpg" # put sample image to sample file as jpg extension
