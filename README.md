@@ -12,7 +12,7 @@
 * sample image에 대한 prediction & image 출력 코드 : ```python inference.py```
 
   + ```inference.py``` 실행시 sample image 폴더에 대한 path를 변경해주세요!
-* 모델 저장 위치 : 제 [Google Drive](https://drive.google.com/open?id=1G8Cf_kYvza3uNutX4R5ftnIcAMGewAv0) 에 저장해두었습니다.
+* 모델 저장 위치 : 제 Google Drive(https://drive.google.com/open?id=1G8Cf_kYvza3uNutX4R5ftnIcAMGewAv0) 에 저장해두었습니다.
 
   + 필수사항 5번의 accuracy를 참고하여 적합한 모델(accuracy가 가장 높은 모델)을 사용해주세요.
 
