@@ -39,9 +39,16 @@
 > #### 5. ```python test.py``` 을 통해 테스트 코드를 실행시켜 정확도를 출력해 주세요.
 > * 실행 결과 나온 Accuracy와 Average loss 입니다.
 > ```
-> Epoch 1 : Test set: Average loss: 0.0555, Accuracy: 9341/10000 (93%) 
-> Epoch 2 : Test set: Average loss: 0.0334, Accuracy: 9581/10000 (96%)
-> Epoch 3 : Test set: Average loss: 0.0477, Accuracy: 9385/10000 (94%)
+> Epoch 1 : Test set: Average loss: 0.0506, Accuracy: 9366/10000 (94%)
+> Epoch 2 : Test set: Average loss: 0.0389, Accuracy: 9520/10000 (95%)
+> Epoch 3 : Test set: Average loss: 0.0399, Accuracy: 9513/10000 (95%)
+> Epoch 4 : Test set: Average loss: 0.0304, Accuracy: 9617/10000 (96%)
+> Epoch 5 : Test set: Average loss: 0.0356, Accuracy: 9553/10000 (96%)
+> Epoch 6 : Test set: Average loss: 0.0335, Accuracy: 9616/10000 (96%)
+> Epoch 7 : Test set: Average loss: 0.0332, Accuracy: 9620/10000 (96%)
+> Epoch 8 : Test set: Average loss: 0.0377, Accuracy: 9565/10000 (96%)
+> Epoch 9 : Test set: Average loss: 0.0341, Accuracy: 9620/10000 (96%)
+> Epoch 10 : Test set: Average loss: 0.0293, Accuracy: 9652/10000 (97%)
 > ```
 
 > #### 6. 정확도와 구현한 모델의 ADT를 README.md에 간단히 요약해주세요.

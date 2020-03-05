@@ -71,7 +71,7 @@ class VGG16(nn.Module):
 		x = F.relu(self.conv5_3(x))
 		x = self.pool(x)
 		
-		#print("x.size() is ", x.size())
+		#print("first dense input size is ", x.size())
 
 		# add skip connection to input
 		x = torch.cat((x, skip_connection), dim = 1)
